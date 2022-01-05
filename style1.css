@@ -1,0 +1,76 @@
+.Haut {
+
+	background-color: "pink;";
+	color: #FFF;
+	font-size : 2rem;
+    font-family: Verdana;
+    border: 2px solid #7C89DD;
+    display: block;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 25px
+    
+    
+}
+
+.bas {  
+
+background-color: "pink;";
+color: #FFF;
+font-size : 2rem;
+font-family: Verdana;
+border: 2px solid #7C89DD;
+display: block;
+text-align: center;
+border-radius: 6px;
+float: bottom;
+margin-top: 620px;
+padding: 10px;
+
+
+
+}
+
+.texte {
+
+	
+    border: 2px solid #7C89DD;
+	float: left;
+	width: 300px;
+	height: 600px;
+	margin: 2px;
+	font-size: 15px;
+	border-radius: 6px;
+	
+
+
+
+}
+
+.texte2 {
+
+border: 2px solid #7C89DD;
+height: 600px;
+width: 1500px;
+font-size: 15px;
+float: right;
+border-radius: 6px;
+}
+
+.Page {
+
+	border: 2px solid #7C89DD;
+	padding: 30px;
+	margin-top:100px;
+	border-radius: 6px;
+}
+
+img {
+
+	float: right;
+	padding: 16px;
+	height: 100px;
+    height: 100px;
+
+}
