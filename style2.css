@@ -1,0 +1,206 @@
+body {
+
+
+font-family: Verdana, Calibri, sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+nav > ul{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li {
+
+	list-style-type: none;
+}
+
+nav > ul > li {
+
+	float: left;
+	
+}
+
+
+
+.submenu {
+
+	display: none;
+}
+
+nav input[type=checkbox] 
+{
+
+	display: none;
+}
+
+.menu-mobile {
+
+	display: none;
+}
+
+nav{
+
+	width: 100%;
+	background-color: "pink;";
+
+}
+
+nav > ul > li{
+
+	float: left;
+	position: relative;
+}
+
+nav > ul::after{
+
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+nav a {
+
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li > a {
+
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav li:hover .submenu{
+
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+
+.submenu li{
+
+	border-bottom: 1px solid #CCC;
+
+}
+
+.submenu li a {
+
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+	transition: .5s all;
+}
+
+.menu-html:hover {
+
+border-top: 5px solid #AAB3EE;
+background-color: rgba(228, 77, 38, 0.15);
+
+}
+
+
+.menu-css:hover {
+
+border-top: 5px solid #AAB3EE;
+background-color: rgba(000, 112, 192, 0.15);
+
+}
+
+
+.menu-js:hover {
+
+border-top: 5px solid #AAB3EE;
+background-color: rgba(241, 211, 79, 0.15);
+
+}
+
+
+nav > ul > li:hover a {
+
+	padding: 15px 30px 20px 30px;
+}
+
+
+.menu-html .submenu{
+
+	background-color: #7C89DD;
+}
+
+.menu-css .submenu{
+	background-color: #7C89DD;
+}
+
+.menu-js .submenu{
+
+	background-color: #7C89DD;
+}
+.submenu li:hover a{
+
+	color: #AAB3EE;
+	font-weight: bold;
+}
+
+.menu-html .submenu li:hover{
+
+	background-color: #B8BCD5;
+}
+
+.menu-css .submenu li:hover{
+
+	background-color: #B8BCD5;
+}
+
+.menu-js .submenu li:hover {
+
+	background-color: #B8BCD5;
+}
+
+nav input[type=checkbox]:checked ~ ul{
+
+	display: block;
+}
+
+@media screen and (max-width : 680px)
+{
+
+	.menu-mobile{
+
+		display: block;
+		color: #fff;
+		background-color: #B8BCD5;
+		text-align: center;
+		padding: 12px 0;
+
+	}
+	nav ul{
+
+		display: none;
+	 }
+
+
+    nav ul li, nav ul li a {
+
+    	width: 100%;
+    	text-align: center;
+    }
+
+    nav ul li a, nav ul li:hover a{
+
+    	padding: 10px 0px 10px 0px;
+    }
+
+    nav li:hover .submenu{
+
+    	display: block;
+    	position: static;
+    }
+
+}
